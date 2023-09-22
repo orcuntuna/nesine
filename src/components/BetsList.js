@@ -11,6 +11,7 @@ export function BetsList() {
   const columns = React.useMemo(
     () => [
       {
+        id: 'title',
         header: () => <span>Event count: {data.length}</span>,
         accessorFn: (row) => ({ C: row.C, T: row.T, N: row.N }),
         cell: (info) => (
@@ -22,6 +23,7 @@ export function BetsList() {
         size: 300,
       },
       {
+        id: 'comment',
         header: 'Yorumlar',
         accessorFn: (row) => 'Yorumlar',
         cell: (info) => info.getValue(),
