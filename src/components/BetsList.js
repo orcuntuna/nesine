@@ -31,7 +31,7 @@ export function BetsList() {
       },
       {
         id: 'e1',
-        header: '',
+        header: ' ',
         accessorFn: (row) => row,
         cell: (info) => (
           <div>
@@ -77,7 +77,6 @@ export function BetsList() {
       {
         id: 'e4',
         header: '2',
-        cell: (info) => '',
         size: 30,
       },
       {
@@ -117,31 +116,26 @@ export function BetsList() {
       {
         id: 'e7',
         header: 'H1',
-        cell: (info) => '',
         size: 30,
       },
       {
         id: 'e8',
         header: '1',
-        cell: (info) => '',
         size: 30,
       },
       {
         id: 'e9',
         header: 'x',
-        cell: (info) => '',
         size: 30,
       },
       {
         id: 'e10',
         header: '2',
-        cell: (info) => '',
         size: 30,
       },
       {
         id: 'e11',
         header: 'H2',
-        cell: (info) => '',
         size: 30,
       },
       {
@@ -198,13 +192,11 @@ export function BetsList() {
       {
         id: 'e15',
         header: 'Var',
-        cell: (info) => '',
         size: 30,
       },
       {
         id: 'e16',
         header: 'Yok',
-        cell: (info) => '',
         size: 30,
       },
       {
