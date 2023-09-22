@@ -1,3 +1,92 @@
-body {
-    background: #ddd;
+html, body {
+    background: #fff;
+    padding: 0;
+    margin: 0;
 }
+
+.bet-table {
+    width: 100%;
+    border-color: red;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-family: arial, sans-serif;
+    table-layout: fixed;
+}
+
+.bet-table thead {
+    background: lightgray;
+    margin: 0;
+    position: sticky;
+    top: 0;
+}
+
+.bet-table th {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    padding: 2px 4px;
+    text-align: left;
+}
+
+.bet-table, .bet-table td, .bet-table th {
+    text-align: center;
+}
+
+.bet-table .info-row {
+    background: #f9f9f9;
+    height: 20px;
+    color: #666;
+}
+
+.bet-table td:first-child {
+    text-align: left;
+    padding-left: 6px;
+}
+
+.container {
+    border: 1px solid lightgray;
+    overflow: auto;
+    min-width: 600px;
+}
+
+.basket {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    border: 1px solid #333;
+    background: azure;
+    width: 450px;
+    max-width: 100% !important;
+}
+
+.basket-inside {
+    padding: 24px;
+}
+
+.basket .item {
+    padding: 6px 0;
+    font-size: 16px;
+}
+
+.basket .item span {
+    margin-right: 10px;
+}
+
+.basket .total {
+    padding: 6px 0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.selectable {
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.selectable-active {
+    cursor: pointer;
+    background: yellow;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
